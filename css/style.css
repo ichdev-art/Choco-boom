@@ -116,10 +116,9 @@ a:hover {
     aside {
        display: none; 
     }
-    img{
-        margin: 3.4em;
-    }
+    
     section img{
-        
+        width: 93%;
+        padding: 1em;
     }
 }
