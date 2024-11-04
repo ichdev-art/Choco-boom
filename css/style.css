@@ -71,7 +71,6 @@ section {
 }
 
 section img {
-    margin: 0.5em;
     width: 80%;
 }
 
@@ -94,4 +93,33 @@ aside p {
 a:hover {
     background: rgb(155, 153, 153);
     
+}
+
+@media (max-width: 960px){
+    main.container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 560px){
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    aside {
+       display: none; 
+    }
+    img{
+        margin: 3.4em;
+    }
+    section img{
+        
+    }
 }
